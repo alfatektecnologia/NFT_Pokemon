@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "retrieve",
+				"name": "getMessage",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_msn",
+						"type": "string"
 					}
 				],
-				"name": "store",
+				"name": "setMessage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -34,20 +34,7 @@
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {
-				"retrieve()": {
-					"details": "Return value ",
-					"returns": {
-						"_0": "value of 'number'"
-					}
-				},
-				"store(uint256)": {
-					"details": "Store value in variable",
-					"params": {
-						"num": "value to store"
-					}
-				}
-			},
+			"methods": {},
 			"version": 1
 		},
 		"userdoc": {
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Message.sol": "Storage"
+			"contracts/Message.sol": "Message"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -73,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Message.sol": {
-			"keccak256": "0x76e6e47ae17a4e8fea48799f0e4a1aae660f9eca4daa29b82124cca4fb5976d6",
+			"keccak256": "0x4bda6857f731f51861f46e0a233612819f42f0626a5113c46fa3633c51645461",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ad81d55a6636f53dc02c5f8957994acc23bb36e567dce2ad9c2a5ebd10f84bf9",
-				"dweb:/ipfs/QmS6AfmUweuijQ6XUtLEjefkGRzfiYvX7nrBkXcbNhNHEn"
+				"bzz-raw://89f2f9a66fbd8c15fdf5fa018a4102146d383aa853e144c5c5038cd5c2657354",
+				"dweb:/ipfs/Qmey2UBzGuaFnX9ZKyQPk62d2HUzSuby4W4G4cuxdp4tb5"
 			]
 		}
 	},
